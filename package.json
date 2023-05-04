@@ -1,0 +1,14 @@
+{
+  "name": "selenium-slack-testrail-bootstrap",
+  "version": "1.0.0",
+  "description": "Starter for every solid test automation project based on node.js & selenium. Includes working examples for Slack and Testrail integrations for better reporting and collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "w.zolnierowicz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
