@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from your repository
-                git 'https://github.com/cogitovirus/selenium-slack-testrail-bootstrap.git'
+                git(url: 'https://github.com/cogitovirus/selenium-slack-testrail-bootstrap.git', branch: 'main')
             }
         }
         stage('Install dependencies') {
