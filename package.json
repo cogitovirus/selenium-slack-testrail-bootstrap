@@ -4,11 +4,19 @@
   "description": "Starter for every solid test automation project based on node.js & selenium. Includes working examples for Slack and Testrail integrations for better reporting and collaboration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --parallel --jobs 4"
   },
   "author": "w.zolnierowicz@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^10.2.0"
+    "chai": "^4.3.7",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "grunt": "^1.6.1",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-eslint": "^24.0.1",
+    "jsdoc": "^4.0.2",
+    "mocha": "^10.2.0",
+    "winston": "^3.8.2"
   }
 }
